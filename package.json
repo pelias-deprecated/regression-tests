@@ -1,0 +1,31 @@
+{
+  "name": "pelias-regression-tests",
+  "author": "mapzen",
+  "version": "0.0.8",
+  "description": "Pelias regression-tests suite",
+  "homepage": "https://github.com/pelias/regression-tests",
+  "license": "MIT",
+  "main": "regression-tests.js",
+  "scripts": {
+    "local": "node node_modules/ciao/bin/ciao -c config/local.json feature",
+    "prod1": "node node_modules/ciao/bin/ciao -c config/prod1.json feature",
+    "dev1": "node node_modules/ciao/bin/ciao -c config/dev1.json feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pelias/regression-tests.git"
+  },
+  "keywords": [
+    "pelias"
+  ],
+  "bugs": {
+    "url": "https://github.com/pelias/regression-tests/issues"
+  },
+  "engines": {
+    "node": ">=0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "devDependencies": {
+    "ciao": "^0.3.4"
+  }
+}
