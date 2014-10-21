@@ -12,19 +12,19 @@ $ npm install
 
 You can create your own environments in '/config' and then add a 'scripts' line in 'package.json'.
 
-### localhost
+#### localhost
 
 ```bash
 $ npm run local
 ```
 
-### production 1
+#### production1
 
 ```bash
 $ npm run prod1
 ```
 
-### development 1
+#### development1
 
 ```bash
 $ npm run dev1
@@ -32,8 +32,8 @@ $ npm run dev1
 
 ## Language References
 
-Ciao: https://github.com/missinglink/ciao
-ShouldJs: https://github.com/shouldjs/should.js
+- Ciao: https://github.com/missinglink/ciao
+- ShouldJs: https://github.com/shouldjs/should.js
 
 
 ## Contributing
